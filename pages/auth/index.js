@@ -1,14 +1,14 @@
 import React from "react";
-
 import User from "../../components/User";
 
-const authIndexPage = (props) => (
+const authIndexPage = props => (
   <div>
     <h1>The Auth Index Page - {props.appName}</h1>
     <User name="Max" age={28} />
   </div>
 );
 
+//Go to the pages/index.js to read about getInitialProps, I have explained that in brief there.
 authIndexPage.getInitialProps = context => {
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {

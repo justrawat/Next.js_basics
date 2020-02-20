@@ -60,37 +60,43 @@ var IndexPage = function (_Component) {
       return _react2.default.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 22
         }
       }, _react2.default.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 23
         }
       }, "The Main Page of ", this.props.appName), _react2.default.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 24
         }
       }, "Go to", " ", _react2.default.createElement(_link2.default, { href: "/auth", __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 26
         }
       }, _react2.default.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 27
         }
       }, "Auth"))), _react2.default.createElement("button", { onClick: function onClick() {
           return _index2.default.push("/auth");
         }, __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 30
         }
       }, "Go to Auth"));
     }
   }], [{
     key: "getInitialProps",
+
+    //getInitialProps is a lifecycle hook that enables server side rendering in a page and allows us to use initial data population.
+    //This means you could initialize your app before it loads.
+    //You could prepopulate your props from the data that this component would recieve, if it fetches something from a database.
+    //Also this is a static async method. Which means you could use async await here and if you don't want that you could just resolve a promise if you want to fetch some data from a server.
+
     value: function getInitialProps(context) {
       var promise = new _promise2.default(function (resolve, reject) {
         setTimeout(function () {
@@ -105,4 +111,4 @@ var IndexPage = function (_Component) {
 }(_react.Component);
 
 exports.default = IndexPage;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiQ29tcG9uZW50IiwiTGluayIsIlJvdXRlciIsIkluZGV4UGFnZSIsInByb3BzIiwiYXBwTmFtZSIsInB1c2giLCJjb250ZXh0IiwicHJvbWlzZSIsInJlc29sdmUiLCJyZWplY3QiLCJzZXRUaW1lb3V0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPLEFBQVM7Ozs7QUFDaEIsQUFBTzs7OztBQUNQLEFBQU87Ozs7Ozs7OztJLEFBRUQ7Ozs7Ozs7Ozs7OzZCQVVLLEFBQ1A7NkJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEsT0FBQSxrQkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FBc0IsMEJBQUEsQUFBSyxNQUQ3QixBQUNFLEFBQWlDLEFBQ2pDLDBCQUFBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUNRLFNBRFIsQUFFRSxxQkFBQSxBQUFDLGdDQUFLLE1BQU4sQUFBVztvQkFBWDtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBTE4sQUFFRSxBQUVFLEFBQ0UsQUFHSiwyQkFBQSxjQUFBLFlBQVEsU0FBUyxtQkFBQTtpQkFBTSxnQkFBQSxBQUFPLEtBQWIsQUFBTSxBQUFZO0FBQW5DO29CQUFBO3NCQUFBO0FBQUE7U0FUSixBQUNFLEFBUUUsQUFHTDs7OztvQyxBQXRCc0IsU0FBUyxBQUM5QjtVQUFNLGdDQUFzQixVQUFBLEFBQUMsU0FBRCxBQUFVLFFBQVcsQUFDL0M7bUJBQVcsWUFBTSxBQUNmO2tCQUFRLEVBQUUsU0FBVixBQUFRLEFBQVcsQUFDcEI7QUFGRCxXQUFBLEFBRUcsQUFDSjtBQUpELEFBQWdCLEFBS2hCLE9BTGdCO2FBS2hCLEFBQU8sQUFDUjs7Ozs7QSxBQVJxQixBQTBCeEI7O2tCQUFBLEFBQWUiLCJmaWxlIjoiaW5kZXguanM/ZW50cnkiLCJzb3VyY2VSb290IjoiL2hvbWUvanVzdHJhd2F0L0Rvd25sb2Fkcy9yZWFjdC1uZXh0anMifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiQ29tcG9uZW50IiwiTGluayIsIlJvdXRlciIsIkluZGV4UGFnZSIsInByb3BzIiwiYXBwTmFtZSIsInB1c2giLCJjb250ZXh0IiwicHJvbWlzZSIsInJlc29sdmUiLCJyZWplY3QiLCJzZXRUaW1lb3V0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPLEFBQVM7Ozs7QUFDaEIsQUFBTzs7OztBQUNQLEFBQU87Ozs7Ozs7OztJLEFBRUQ7Ozs7Ozs7Ozs7OzZCQWVLLEFBQ1A7NkJBQ0UsY0FBQTs7b0JBQUE7c0JBQUEsQUFDRTtBQURGO0FBQUEsT0FBQSxrQkFDRSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FBc0IsMEJBQUEsQUFBSyxNQUQ3QixBQUNFLEFBQWlDLEFBQ2pDLDBCQUFBLGNBQUE7O29CQUFBO3NCQUFBO0FBQUE7QUFBQSxTQUNRLFNBRFIsQUFFRSxxQkFBQSxBQUFDLGdDQUFLLE1BQU4sQUFBVztvQkFBWDtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBTE4sQUFFRSxBQUVFLEFBQ0UsQUFHSiwyQkFBQSxjQUFBLFlBQVEsU0FBUyxtQkFBQTtpQkFBTSxnQkFBQSxBQUFPLEtBQWIsQUFBTSxBQUFZO0FBQW5DO29CQUFBO3NCQUFBO0FBQUE7U0FUSixBQUNFLEFBUUUsQUFHTDs7O1NBM0JEOztBQUNBO0FBQ0E7QUFDQTs7O29DLEFBRXVCLFNBQVMsQUFDOUI7VUFBTSxnQ0FBc0IsVUFBQSxBQUFDLFNBQUQsQUFBVSxRQUFXLEFBQy9DO21CQUFXLFlBQU0sQUFDZjtrQkFBUSxFQUFFLFNBQVYsQUFBUSxBQUFXLEFBQ3BCO0FBRkQsV0FBQSxBQUVHLEFBQ0o7QUFKRCxBQUFnQixBQUtoQixPQUxnQjthQUtoQixBQUFPLEFBQ1I7Ozs7O0EsQUFicUIsQUErQnhCOztrQkFBQSxBQUFlIiwiZmlsZSI6ImluZGV4LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9ob21lL2p1c3RyYXdhdC9Eb3dubG9hZHMvcmVhY3QtbmV4dGpzIn0=
